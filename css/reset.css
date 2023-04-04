@@ -1,0 +1,26 @@
+/* 여백 초기화 */
+*{padding: 0; margin: 0;}
+
+
+/* 블릿기호 초기화 */
+dl,ul,ol,menu,li{list-style: none;}
+
+
+/* 링크초기화 */
+a{color: #222; text-decoration: none;}
+a:hover{color: #ea5d4b; text-decoration: underline;}
+a:active{background: transparent;}
+
+/* 폰트초기화 */
+body,th,td,input,select,textarea,button{font-size:13px;line-height:1.5;font-family:'Roboto', sans-serif; color:#222;letter-spacing:-1px}
+
+/* 폰트스타일초기화 */
+address,caption,cite,code,dfn,em,var{font-style: normal; font-weight: normal;}
+
+
+/* table 초기화 */
+table{width: 100%; border-spacing: 0; border-collapse: collapse;}
+
+
+/* caption */
+caption{padding: 0; margin: 0; font-size: 0; line-height: 0 ; width: 0; height: 0; text-indent: -9999999px;}
