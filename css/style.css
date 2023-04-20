@@ -168,7 +168,7 @@
 
 /* sub_banner */
 .sub_banner{}
-.sub_banner .visual{height: 256px; line-height: 256px; }
+.sub_banner .visual{height: 225px; line-height: 225px; }
 .sub_banner .visual.about{height: 225px;background: url('../images/visual_about.jpg') no-repeat center top;}
 .sub_banner .visual h2{color: #fff; font-size: 45px; text-transform: uppercase; font-weight: normal;}
 
