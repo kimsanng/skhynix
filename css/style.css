@@ -19,7 +19,7 @@
 #contents5{ }
 
 
-
+body{overflow-x: hidden;}
 /* header */
 .header{overflow: hidden;}
 .header h1{float: left; width: 200px; margin-top: 15px;}
@@ -52,14 +52,14 @@
 
 
 /* investor */
-.investor{text-align: center; padding: 60px 0 70px;}
+.investor{text-align: center; padding: 60px 0 70px; }
 .investor h2{font-size: 26px; }
 .investor p{color: #666; margin: 20px 0 36px;}
 
 .investor .Inverstor_box{overflow: hidden; border-top: 1px solid #eaeaea;}
 .investor .Inverstor_box .ileft{float: left; width: 400px; height: 300px; padding-top: 30px; }
-.investor .Inverstor_box .iright{float: left; width: 619px; height: 300px;  border-left: 1px solid #eaeaea;}
-.investor .Inverstor_box .iright ul{overflow: hidden;}
+.investor .Inverstor_box .iright{float: right; width: 619px; height: 300px;  border-left: 1px solid #eaeaea; box-sizing: border-box;}
+.investor .Inverstor_box .iright ul{overflow: hidden; }
 .investor .Inverstor_box .iright li{float: left; width: 33.333%; margin-top: 40px; ;}
 .investor .Inverstor_box .iright li a:hover{ color: #555;}
 .investor .Inverstor_box .iright li a i{font-size: 30px; background-color: #f3f3f3; padding: 10px; border-radius: 50%; width: 40px; height: 40px; line-height: 40px; color: #ec7768;}
@@ -135,8 +135,8 @@
 
 /* footer_top */
 
-.footer_top{ overflow: hidden; background: #e9e9e9; margin-top: 100px;}
-.footer_top .ft_left{float: left; width: 509px; height: 225px;  border-right: 1px solid #d7d7d7}
+.footer_top{ overflow: hidden; background: #e9e9e9; margin-top: 100px; }
+.footer_top .ft_left{float: left; width: 509px; height: 225px;  border-right: 1px solid #d7d7d7; box-sizing: border-box;}
 .footer_top .ft_left h3{padding-top: 22px;}
 .footer_top .ft_left ul{overflow: hidden;}
 .footer_top .ft_left li{float: left; width: 50%;}
